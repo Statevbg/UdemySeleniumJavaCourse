@@ -68,6 +68,6 @@ public class assignments_ {
             System.out.println(link.getText() + link.getAttribute("Href"));
 
         }
-        System.out.println("asd");
+
     }
 }
