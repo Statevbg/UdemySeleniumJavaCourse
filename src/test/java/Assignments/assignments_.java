@@ -1,6 +1,7 @@
 package Assignments;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -96,6 +97,22 @@ public class assignments_ {
         };
 
         driver.findElement(By.cssSelector("input[id='mathuserans2']")).sendKeys(operatorValue);
+
+    }
+    @Test
+    public static void Task4(){
+
+
+        //Arrange
+        WebDriver driver = new ChromeDriver();
+        driver.get("http://google.com");
+        driver.manage().window().setSize(new Dimension(500,500));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        //Act
+        for (int i = 300; i <= 600; i=i+10){
+            driver.manage().window().setSize(new Dimension(i,i));
+
+        }
 
     }
 
