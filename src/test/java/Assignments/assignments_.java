@@ -17,7 +17,7 @@ import java.util.List;
 public class assignments_ {
 
     @Test
-    public static void Task1(){
+    public static void printAllLinksOnHomepage(){
 
         //Arrange
         WebDriver driver = new ChromeDriver();
@@ -46,7 +46,7 @@ public class assignments_ {
 
     }
     @Test
-    public static void Task2(){
+    public static void fillRegistrationForm(){
 
 
         //Arrange
@@ -74,7 +74,7 @@ public class assignments_ {
 
     }
     @Test
-    public static void Task3(){
+    public static void validateCheker(){
 
 
         //Arrange
@@ -100,7 +100,7 @@ public class assignments_ {
 
     }
     @Test
-    public static void Task4(){
+    public static void resizeWindow(){
 
 
         //Arrange
