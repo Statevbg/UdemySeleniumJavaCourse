@@ -110,7 +110,7 @@ public class assignments_ {
         //Act
         for (int i = 300; i <= 600; i=i+10){
             driver.manage().window().setSize(new Dimension(i,i));
-
+            System.out.println("asd");
         }
 
     }
